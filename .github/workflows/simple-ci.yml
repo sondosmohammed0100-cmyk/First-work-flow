@@ -1,0 +1,11 @@
+name: sample-ci
+on: push
+jobs:
+    test-job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: list repository files
+              run: ls -la
+            - name: print README constent
+              run: cat README.md
+
