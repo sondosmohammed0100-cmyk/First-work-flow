@@ -4,6 +4,9 @@ jobs:
     test-job:
         runs-on: ubuntu-latest
         steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+              
             - name: list repository files
               run: ls -la
             - name: print README constent
