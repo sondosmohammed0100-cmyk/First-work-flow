@@ -1,0 +1,21 @@
+{
+  "name": "first-work-flow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "bash src/test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sondosmohammed0100-cmyk/First-work-flow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sondosmohammed0100-cmyk/First-work-flow/issues"
+  },
+  "homepage": "https://github.com/sondosmohammed0100-cmyk/First-work-flow#readme"
+}
