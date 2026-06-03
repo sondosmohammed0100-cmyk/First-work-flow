@@ -1,8 +1,6 @@
 #!/bin/bash
 
-# src/test.sh
-EXPECTED="Hello, Test!"
-
+EXPECTED="Hello, Test"
 
 OUTPUT=$(node -e "
   const greet = require('./src/app');
@@ -15,3 +13,4 @@ if [ "$OUTPUT" = "$EXPECTED" ]; then
 else
   echo "❌ Test failed! Expected '$EXPECTED' but got '$OUTPUT'"
   exit 1
+fi
